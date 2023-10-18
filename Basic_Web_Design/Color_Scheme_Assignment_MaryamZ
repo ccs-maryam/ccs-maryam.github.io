@@ -7,3 +7,40 @@
 		<meta name="author" content="Maryam Zorba">
 	</head>
 	<body>
+<style> 
+			table, tr, td { 
+				border: 1px solid black; 
+			} 
+		</style> 
+
+		<table> 
+				<tr>
+					<th colspan="4">Hoopoe</th>
+				</tr> 
+				<tr>
+					<td>Light Salmon</td>
+					<td>Black</td>
+					<tr>Bisque</td>
+					<td>Old Lace</td>
+				</tr>
+				<tr>
+					<td>hex value</td>
+					<td>hex value</td>	
+					<td>hex value</td>	
+					<td>hex value</td>
+				</tr>
+				<tr>
+					<td>rgb value</td>
+					<td>rgb value</td>
+					<td>rgb value</td>
+					<td>rgb value</td>
+				</tr>
+				<tr>
+					<td>hsl value</td>
+					<td>hsl value</td>
+					<td>hsl value</td>
+					<td>hsl value</td>
+				</tr>
+		</table>
+	</body>
+</html>
