@@ -1,1 +1,10 @@
-<div style="background-image: url(kittens.jpg); width:250px;">Two kittens.</div>
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>P1ST0L ST4R</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Maryam Zorba">
+	</head>
+	<body> 
+<div style="background-image: Documents_Folder/PistolStarandNebula.jpeg; width:250px;">Star</div>
