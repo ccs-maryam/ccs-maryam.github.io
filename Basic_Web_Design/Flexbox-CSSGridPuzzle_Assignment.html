@@ -10,37 +10,22 @@
 		<style>
 			section.grid-container {
   				display: grid;
-				grid-template-columns: repeat(3, 1fr);
+				grid-template-columns: 3fr;
+        			grid-template-rows: 1fr 1fr 1fr;
   				padding: 10px;
 				background-color: #FFF8E7;
 				gap: 10px; 
-				justify-content: space-evenly;
-				grid-template-areas: 
-     				'nm nm nm'
-      				'. pz .'
-      				'. dt .'
-				;
 			}
 			section div.grid-item {
    				background-color: #FF4F00;
-    				border: 1px solid;
+    				border: 5px solid rgba(0, 0, 0);;
     				padding: 5px;
     				text-align: center;
-  			}
-			  div.grid-item1 {
-    				grid-area: nm; /*name*/
-  			}
-  			div.grid-item2 {
-    				grid-area: pz; /*puzzle*/
-  			}
-  			div.grid-item3 {
-    				grid-area: dt; /*date*/
-  			}
 		</style>
 		<section class="grid-container">
-			<div class="grid-item1">Maryam Zorba  - Butterflies</div>
-  			<div class="grid-item2">...</div>
-  			<div class="grid-item3">11/24/2023</div>
+			<div class="grid-item">Maryam Zorba  - Butterflies</div>
+  			<div class="grid-item">...</div>
+  			<div class="grid-item">11/24/2023</div>
 		</section>
 	</body>
 </html>
