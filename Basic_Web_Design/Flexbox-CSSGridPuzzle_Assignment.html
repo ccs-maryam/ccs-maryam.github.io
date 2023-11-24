@@ -10,20 +10,22 @@
 		<style>
 			section.grid-container {
   				display: grid;
+				grid-template-columns: 3fr;
+  				grid-template-rows: 1fr 1fr 1fr;
   				padding: 10px;
 				background-color: #FFF8E7;
 				gap: 10px; 
+				grid-template-areas: 
+     				'nm nm nm'
+      				'.  pz .'
+      				'.  dt .'
+				;
 			}
 			section div.grid-item {
    				background-color: #FF4F00;
     				border: 1px solid;
     				padding: 5px;
     				text-align: center;
-				grid-template-areas: 
-     				'nm nm nm'
-      				'.  pz .'
-      				'.  dt .'
-    			;
   			}
 			  div.grid-item1 {
     				grid-area: nm; /*name*/
