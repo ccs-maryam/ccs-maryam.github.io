@@ -11,6 +11,6 @@ td {
 td {
 	padding:10px;
 }
-td:last-of-type {
+td:empty {
      	background-color: gold;
 }
