@@ -8,6 +8,6 @@ th {
 td {
 	padding:10px;
 }
-td:empty {
+td:nth-child(odd) {
      	background-color: gold;
 }
