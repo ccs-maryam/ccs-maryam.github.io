@@ -8,3 +8,9 @@ th {
 td {
 	padding:10px;
 }
+td {
+	padding:10px;
+}
+td:last-of-type {
+     	background-color: gold;
+}
