@@ -1,0 +1,17 @@
+h1 {
+	border: 1px solid black;
+}
+<!--Tutorial-->
+h2 {
+	padding:10px;
+	background-color: #5B76E7;
+	font-color: #FFFFFF;
+}
+p {
+	background-color: #EDFFFE;
+}
+h3 {
+	padding:10px;
+	background-color: #BF7851;
+	font-color: #FFFFFF;
+}
