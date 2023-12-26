@@ -1,11 +1,12 @@
 h1 {
 	padding:20px;
+	background-color: #2946C5;
+	font-color: #FFFFFF;
 /* Tutorial */
 }
 h2 {
 	padding:10px;
 	background-color: #5B76E7;
-	font-color: #FFFFFF;
 }
 p {
 	padding:10px;	
@@ -13,8 +14,7 @@ p {
 }
 h3 {
 	padding:10px;
-	background-color: #BF7851;
-	font-color: #F9E969;
+	background-color: #F9E969;
 }
 img {
 	display: block; 
