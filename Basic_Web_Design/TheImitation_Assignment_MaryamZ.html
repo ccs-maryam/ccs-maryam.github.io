@@ -8,6 +8,9 @@
 	</head>
 	<body> 
 		<style>
+			img {
+				height:200px;
+			}	
 			.penguins {
 				border: 1px solid black; 
 				border-bottom-left-radius: 50% 25%;
@@ -25,13 +28,19 @@
 				-webkit-filter: grayscale(100%); 
 				filter: grayscale(100%);"
 			}
-			img {
-				height:200px;
-			}	
+			.dinosaur {
+				-webkit-filter: hue-rotate(20deg); 
+				filter: hue-rotate(20deg); 
+				-webkit-filter: drop-shadow(5px 5px #000000);  
+				filter: drop-shadow(5px 5px #000000);
+			}
+			.seagull {
+				box-shadow: 3px 10px;
+			}
 		</style>
 		<img class="penguins" src="Documents_Folder/penguins.jpg">
 		<img class="field" src="Documents_Folder/football_field.jpg">
-		<img src="Documents_Folder/dinosaur.png" height="200" style="-webkit-filter: hue-rotate(50deg); filter: hue-rotate(50deg); -webkit-filter: drop-shadow(5px #000000);  filter: drop-shadow(5px #000000);">
-		<img src="Documents_Folder/seagull.png" height="200" style"
+		<img class="dinosaur" src="Documents_Folder/dinosaur.png">  
+		<img src="Documents_Folder/seagull.png">
 	</body>
 </html>
