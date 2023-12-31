@@ -41,20 +41,20 @@
 				filter: opacity(70%) invert(100%);
 			}
 			.theater {
-				position: fixed;
+				display: block;
+				position: absolute; 
     				background-image: url(Documents_Folder/theater_stage.jpg);
 				background-repeat: no-repeat;
     				height: 500px;
 				-webkit-filter: blur(2px);
 				filter: blur(2px);
-				z-index: 1;
-				display: block;
+				z-index: -1;
+				background-position: center;
+				background-size: cover; 
 				}
 			.present {
 				position: fixed;
-				z-index: 20;
-				-webkit-filter: blur(0px);
-				filter: blur(0px);
+				text-align: center;
 				}
 		</style>
 		<img class="penguins" src="Documents_Folder/penguins.jpg">
@@ -64,7 +64,7 @@
 		<img class="butterfly" src="Documents_Folder/butterfly.jpg"> 
 		<div>
 			<div class="theater"></div>
-			<p class="present">Presenting</div>
+			<div class="present">Presenting</div>
 		</div>
 	</body>
 </html>
