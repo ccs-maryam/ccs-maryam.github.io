@@ -18,9 +18,9 @@
 				filter: sepia(50%);"
 			}
 			.field {
-				height: 200px;
-				border: solid 60px #000000;
-				border-image: url(Documents_Folder/tic-tac-toe.png) 60 round; 
+				height: 400px;
+				border: solid 48px #000000;
+				border-image: url(Documents_Folder/tic-tac-toe.png) 48 round; 
 				-webkit-filter: grayscale(100%); 
 				filter: grayscale(100%);	
 			}
@@ -54,6 +54,17 @@
      				text-shadow: 2px 2px 2px black;
 				text-align: center;
 			}
+			.present {
+				position: absolute;
+            			top: 50%;
+            			left: 50%;
+            			transform: translate(-50%, -50%);
+			}
+			.section {
+				position: relative;
+          			text-align: center;
+			}
+				
 		</style>
 		<img class="penguins" src="Documents_Folder/penguins.jpg">
 		<img class="field" src="Documents_Folder/football_field.jpg">
@@ -61,12 +72,10 @@
 		<img class="seagull" src="Documents_Folder/seagull.png">
 		<img class="butterfly" src="Documents_Folder/butterfly.jpg"> 
 
-		<section>
+		<div style="section">
 			<div class="theater"></div>
-			<div class="present">
-				<p style=">Presenting</p>
-			</div>
-		</section>
+			<div class="present">Presenting</div>
+		</div>
 		
 	</body>
 </html>
